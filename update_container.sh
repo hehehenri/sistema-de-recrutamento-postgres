@@ -7,3 +7,4 @@ docker cp seeders.sql $CONTAINER_ID:/home/seeders.sql
 docker cp fresh.sql $CONTAINER_ID:/home/fresh.sql
 docker exec -it $CONTAINER_ID rm -rf /home/seeders
 docker cp seeders $CONTAINER_ID:/home/seeders
+docker cp operations $CONTAINER_ID:/home/operations
